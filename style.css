@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil&family=Red+Hat+Mono:wght@300&display=swap');
+*{
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Anek Tamil', sans-serif;
+}
+body{
+  background-color: #0B243B;
+}
+header{
+  background-color: #CEE3F6;
+  font-size: 30px;
+}
+h1{
+  text-align: center;
+  padding: 20px;
+}
+.top{
+  margin: 20px;
+  text-align:center;
+  font-size: 30px;
+  color: white;
+}
+.choices{
+  text-align: center;
+  margin: 10px;
+  color: white;
+}
+
+#h{
+  display:inline-block;
+  border: solid 4px;
+  font-size: 100px;
+  padding: 0px 45px;
+  border-radius: 50%;
+  margin: 0px 20px;
+}
+
+#t{
+  display:inline-block;
+  border: solid 4px;
+  font-size: 100px;
+  padding: 0px 50px;
+  border-radius: 50%;
+   margin: 0px 20px;
+}
+.choice{
+  transition: all 0.3s ease;
+}
+.choice:hover{
+  background-color: #0B3861;
+  cursor: pointer;
+}
+.score{
+  margin: 20px;
+  text-align:center;
+  font-size: 50px;
+  color: white;
+}
+.bottom{
+  padding: 20px;
+}
+
+#outcome{
+  padding: 0 20px;
+  border: solid 4px;
+  border-radius: 5px;
+}
