@@ -61,3 +61,14 @@ h1{
 .bottom{
   padding: 20px;
 }
+li{
+    color:white;
+    font-size: 20px;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 10px;
+    margin-top: 30px;
+}
+ul{
+    font-size: 0;
+}
